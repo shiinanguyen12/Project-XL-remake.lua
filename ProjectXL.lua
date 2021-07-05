@@ -13,11 +13,11 @@ local set = {
 }
 
 --// Imports
-local imgui = loadstring(game:HttpGetAsync('https://raw.githubusercontent.com/1e17/UI-Libs/main/imgui_.lua'))()
+local imgui = loadstring(game:HttpGetAsync('https://raw.githubusercontent.com/shiinanguyen12/Project-XL-remake.lua/master/UI.lua?token=ANXX2DOGG3TYEYPBUSIV2PDA4JX4Q'))()
 
 --// Declarations 
 local quests = {strings={},values={}}
-local bosses = loadstring(game:HttpGetAsync('https://raw.githubusercontent.com/1e17/assets/main/projectXl_bosses.lua'))()
+local bosses = loadstring(game:HttpGetAsync('https://raw.githubusercontent.com/shiinanguyen12/Project-XL-remake.lua/master/Bosses.lua?token=ANXX2DLXZXGDGTYHWNYQ6YLA4JX3G'))()
 local toolCache = {}
 local player = game.Players.LocalPlayer
 local live = workspace.Live  
