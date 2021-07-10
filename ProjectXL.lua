@@ -106,7 +106,7 @@ for i,v in pairs(getconnections(player.Idled)) do
 end
 
 --// UI
-local win = imgui.AddWindow(nil,'Project-XL-remake - Shiina Nguyen#0001',{main_color = Color3.fromRGB(255,69,0),min_size = Vector2.new(350,450),toggle_key = Enum.KeyCode.RightShift,can_resize = true})
+local win = imgui.AddWindow(nil,'ProjectXL - Remake by Shiina Nguyen#0001',{main_color = Color3.fromRGB(255,69,0),min_size = Vector2.new(350,450),toggle_key = Enum.KeyCode.RightShift,can_resize = true})
 
 --// Tabs
 local primaryTab = win.AddTab(nil,'Farm') --[[]]

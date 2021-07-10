@@ -1,5 +1,5 @@
 return {
     "CrimsonMikami",
-    "KiddStan"
+    "KiddStan",
 	"Training Dummy"
 }
