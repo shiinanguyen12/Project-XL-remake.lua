@@ -9,7 +9,7 @@ local set = {
     angle = "Below",
     alwaysStand = true,
     instaKill = true,
-    abs = {E=false,R=false,C=false,X=false,Y=false,V=false}
+    abs = {E=false,R=false,C=false,X=false,Y=false}
 }
 
 --// Imports
@@ -145,7 +145,7 @@ player.Backpack.ChildAdded:Connect(function(item)
         toolCache[item.Name] = toolDropdown:Add(item.Name)
     end 
 end)
-for i,v in pairs({'E','R','C','X','Y','V'}) do 
+for i,v in pairs({'E','R','C','X','Y'}) do 
     abSetFolder.AddSwitch(nil,'Use: '..v,false,function(bool) set.abs[v] = bool end)
     coroutine.wrap(function()
         while wait(nil) do 
